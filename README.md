@@ -1,4 +1,9 @@
 # DSA-GROUP-THREE-PROJECT
+
+- Kariuki Irene -675467
+- Nafisa Amirali - 674653
+- Tita Claudlynne -674071
+- Petro Aimata - 675208
 This project predicted customer churn to help businesses identify customers who are likely to leave and take action to retain them.
 # Customer Churn Prediction
 We use a dataset from Kaggle and follow a structured week-by-week workflow, covering data exploration, cleaning, feature engineering, model training, and evaluation.
