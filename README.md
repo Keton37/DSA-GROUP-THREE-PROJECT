@@ -1,7 +1,7 @@
 # DSA-GROUP-THREE-PROJECT
-# This project predicted customer churn to help businesses identify customers who are likely to leave and take action to retain them.
-Customer Churn Prediction
-# We use a dataset from Kaggle and follow a structured week-by-week workflow, covering data exploration, cleaning, feature engineering, model training, and evaluation.
+This project predicted customer churn to help businesses identify customers who are likely to leave and take action to retain them.
+# Customer Churn Prediction
+We use a dataset from Kaggle and follow a structured week-by-week workflow, covering data exploration, cleaning, feature engineering, model training, and evaluation.
 
 ## Dataset Information
 
@@ -41,7 +41,7 @@ Joblib
 
 ## Project Workflow
 
-🔹 Week 1: Project Introduction & Data Setup
+###🔹 Week 1: Project Introduction & Data Setup
 
 Loaded dataset using Pandas
 
@@ -51,7 +51,7 @@ Inspected structure (info())
 
 Generated summary statistics (describe())
 
-🔹 Week 2: Data Exploration & Cleaning
+###🔹 Week 2: Data Exploration & Cleaning
 
 Exploratory Data Analysis (EDA):
 
@@ -83,7 +83,7 @@ Encoded categorical variables using Label Encoding
 
 Standardized numerical features using StandardScaler
 
-🔹 Week 3: Feature Engineering & Data Splitting
+###🔹 Week 3: Feature Engineering & Data Splitting
 
 Final feature set created
 
@@ -97,7 +97,7 @@ Train-test split:
 
 Stratified on Churn to handle class imbalance
 
-🔹 Week 4: Model Building
+###🔹 Week 4: Model Building
 
 Two machine learning models were trained:
 
@@ -117,7 +117,7 @@ Handles non-linear relationships well
 
 Provides feature importance
 
-🔹 Week 5: Model Evaluation & Reporting
+###🔹 Week 5: Model Evaluation & Reporting
 📈 Evaluation Metrics
 
 Accuracy
@@ -132,14 +132,14 @@ Confusion Matrix
 
 Classification Report
 
-🔍 Results Summary
+### 🔍 Results Summary
 Model	Accuracy	Precision	Recall	F1-Score
 Logistic Regression	73.9%	68.8%	2.9%	0.06
 Random Forest	78.9%	63.0%	49.2%	0.55
 
 ✅ Random Forest performed better, especially in detecting churned customers (higher recall and F1-score).
 
-📊 Feature Importance
+### 📊 Feature Importance
 
 Random Forest feature importance analysis shows that variables such as:
 
@@ -155,12 +155,4 @@ InternetService
 
 play a significant role in predicting churn.
 
-💾 Model Saving
 
-Trained models were saved using joblib:
-
-logistic_regression_model.pkl
-
-random_forest_model.pkl
-
-These can be reloaded for future predictions without retraining.
